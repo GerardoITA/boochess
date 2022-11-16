@@ -1,3 +1,6 @@
 function createPiece(piece){
-    document.getElementsByClassName("inner-box").innerHTML +=
+    document.getElementsByClassName("inner-box").innerHTML +=`
+    <div class="pezzo"></div>
+    `;
+    
 }
